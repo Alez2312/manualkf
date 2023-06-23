@@ -1,0 +1,78 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #043275;
+  --ifm-color-primary-dark: #042d69;
+  --ifm-color-primary-darker: #032a63;
+  --ifm-color-primary-darkest: #032352;
+  --ifm-color-primary-light: #043781;
+  --ifm-color-primary-lighter: #053987;
+  --ifm-color-primary-lightest: #054198;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Tipografía */
+  --main-font: Montserrat, Helvetica, Arial, sans-serif;
+  --font-size: 1rem;
+
+  --second-color: #d2d7dd;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #126cd8;
+  --ifm-color-primary-dark: #1061c2;
+  --ifm-color-primary-darker: #0f5cb8;
+  --ifm-color-primary-darkest: #0d4c97;
+  --ifm-color-primary-light: #1677ec;
+  --ifm-color-primary-lighter: #217dec;
+  --ifm-color-primary-lightest: #4190ef;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --second-color: #121e2b;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.menu {
+  background-color: var(--second-color);
+}
+
+
+.overview-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  padding-bottom: 3rem;
+  border-bottom: solid 1px var(--ifm-color-emphasis-200);
+  white-space: nowrap;
+  margin-left: 4%;
+  margin-right: 24%;
+}
+
+.card {
+  background: #cfcfcf;
+  width: 350px;
+  height: 150px;
+  overflow: hidden;
+  padding: 0 20px;
+  display: inline-block;
+  text-decoration: none !important;
+}
+.card h3 {
+  font-size: 1.5rem;
+  display: inline-block;
+}
+
+.card p {
+  font-size: 1rem;
+  color: black;
+  white-space: normal;
+  /* text-overflow: ellipsis; */
+}
