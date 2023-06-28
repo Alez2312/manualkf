@@ -15,6 +15,18 @@ Una vez entre al sistema, aparecerá la siguiente pestaña:
 
 ![KódigoFuente](/img/facturacion/tactilFacturacion/tc_form_facturacion_tactil.png)
 
+**Pestañas**
+
+Al señalar una de las pestañas se mostrará todos los productos asociados a ella.
+![KódigoFuente](/img/facturacion/tc_form_facturacion.png)
+
+:::info Nota:
+En el módulo de Sistema, Configuración, Productos y servicios se puede crear una nueva pestaña.
+
+:::
+
+---
+
 En esta pantalla, usted podrá crear la factura POS, agregar productos, modificar cantidades, guardar/archivar facturas realizadas y cargar facturas anteriores que no se han finalizado.
 
 ## Cómo registrar un producto
