@@ -19,6 +19,7 @@ Después de leer el código aparecerá el nombre y el precio del producto.
 
 ![](/img/herramientas/visorPrecios/descripcion_producto.png)
 
-:::Nota
+:::info Nota:
 
 Para salir del visor de precios puede presionar la tecla **esc** o dar clic en la **x** de la ventana.
+::

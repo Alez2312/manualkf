@@ -15,7 +15,7 @@ Saldrá el siguiente formulario, que debe ser completamente diligenciado para ge
 
 ![](/img/reportes/reporteInventario/formulario_reporteInventarios.png)
 
-Para crear un reporte de venta, sigue los siguientes pasos :
+Para crear un reporte de inventario, sigue los siguientes pasos :
 
 Paso 1 :
 

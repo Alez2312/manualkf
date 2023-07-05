@@ -60,21 +60,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
-      navbar: {
-       
+      home: './docs/introduccion',
+      image: 'img/logo.jpg',
+      navbar: {    
         items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: 'Tutorial',
-          },
-          {
-            href: 'https://github.com/kodigofuente',
-            label: 'GitHub',
-            position: 'right',
           },
         ],
       },
@@ -85,6 +79,12 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      docs: {
+        sidebar: {
+          autoCollapseCategories: true,
+          hideable: true,
+        },
       },
     }),
 };

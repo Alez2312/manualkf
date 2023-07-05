@@ -52,16 +52,15 @@ body {
   padding-bottom: 3rem;
   border-bottom: solid 1px var(--ifm-color-emphasis-200);
   white-space: nowrap;
-  margin-left: 4%;
-  margin-right: 24%;
+  margin: 5% 0 25% 0;
 }
 
 .card {
   background: #cfcfcf;
-  width: 350px;
-  height: 150px;
+  width: auto;
+  height: 80%;
   overflow: hidden;
-  padding: 0 20px;
+  padding: 5% 2%;
   display: inline-block;
   text-decoration: none !important;
 }
@@ -74,5 +73,11 @@ body {
   font-size: 1rem;
   color: black;
   white-space: normal;
-  /* text-overflow: ellipsis; */
+  text-overflow: ellipsis;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 1px solid #126CD8
 }
