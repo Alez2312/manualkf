@@ -60,15 +60,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      home: './docs/introduccion',
       image: 'img/logo.jpg',
-      navbar: {    
+      navbar: {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'manualSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Manual',
           },
         ],
       },
@@ -87,6 +86,19 @@ const config = {
         },
       },
     }),
+  themes: [
+    [
+      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      ({
+        hashed: true,
+        docsRouteBasePath: ["docs"],
+        docsDir: ["docs"],
+        searchContextByPaths: ["docs"],
+        hideSearchBarWithNoSearchContext: true,
+      }),
+    ],
+  ],
 };
 
 module.exports = config;
