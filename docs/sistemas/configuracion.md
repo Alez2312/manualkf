@@ -50,7 +50,7 @@ Permite la creación de categorías, grupos y pestañas para posteriormente ser 
 
 * #### PESTAÑAS
 
-Permite la creación o modificación de pestañas para posteriormente ser asignadas a los productos según corresponda.
+Permite la creación, modificación y orden de las pestañas para posteriormente ser asignadas a los productos según corresponda.
 
 ![](/img/configuracion/configuracion_pestañas_productos.png)
 
@@ -58,6 +58,12 @@ Permite la creación o modificación de pestañas para posteriormente ser asigna
 El límite máximo para el nombre de una pestaña es de 20 caracteres, incluyendo espacios.
 
 :::
+
+* #### BOTONES
+
+Permite personalizar el orden de los botones de los productos en cada pestaña seleccionada, de acuerdo a sus preferencias.
+
+![](/img/configuracion/configuracion_botones_productos.png)
 
 ### 4\. Sistema
 
